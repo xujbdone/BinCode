@@ -8,6 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = _01_Delegate
-build_property.ProjectDir = D:\文件\04code\BinCode\01-Delegate\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = C:\Users\西红柿炒鸡蛋\source\repos\BinCode\01-Delegate\
