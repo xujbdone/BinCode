@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\西红柿炒鸡蛋\\source\\repos\\BinCode\\01-FluentScheduler\\01-FluentScheduler.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\西红柿炒鸡蛋\\source\\repos\\BinCode\\01-FluentScheduler\\01-FluentScheduler.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\西红柿炒鸡蛋\\source\\repos\\BinCode\\01-FluentScheduler\\01-FluentScheduler.csproj",
+        "projectName": "02-DataBase",
+        "projectPath": "C:\\Users\\西红柿炒鸡蛋\\source\\repos\\BinCode\\01-FluentScheduler\\01-FluentScheduler.csproj",
+        "packagesPath": "C:\\Users\\西红柿炒鸡蛋\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\西红柿炒鸡蛋\\source\\repos\\BinCode\\02-DataBase\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\西红柿炒鸡蛋\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.1.10:8088/nuget": {},
+          "http://192.168.1.19:8040/nuget": {},
+          "http://192.168.1.22:8040/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentScheduler": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
