@@ -11,7 +11,6 @@ namespace _03_Delegate
             //委托
             //BasicDelegate.RunTest();
 
-
             //事件
             EventTest.Run();
         }
