@@ -515,23 +515,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\西红柿炒鸡蛋\\.nuget\\packages\\": {},
+    "C:\\Users\\FZ\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\西红柿炒鸡蛋\\source\\repos\\BinCode\\02-DataBase\\02-DataBase.csproj",
+      "projectUniqueName": "D:\\Code\\BinCode\\02-DataBase\\02-DataBase.csproj",
       "projectName": "02-DataBase",
-      "projectPath": "C:\\Users\\西红柿炒鸡蛋\\source\\repos\\BinCode\\02-DataBase\\02-DataBase.csproj",
-      "packagesPath": "C:\\Users\\西红柿炒鸡蛋\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\西红柿炒鸡蛋\\source\\repos\\BinCode\\02-DataBase\\obj\\",
+      "projectPath": "D:\\Code\\BinCode\\02-DataBase\\02-DataBase.csproj",
+      "packagesPath": "C:\\Users\\FZ\\.nuget\\packages\\",
+      "outputPath": "D:\\Code\\BinCode\\02-DataBase\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\西红柿炒鸡蛋\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\FZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -539,6 +539,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "http://192.168.1.10:8088/nuget": {},
         "http://192.168.1.19:8040/nuget": {},
         "http://192.168.1.22:8040/nuget": {},
@@ -554,6 +555,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -589,7 +595,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -598,19 +604,19 @@
       "code": "NU1803",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://192.168.1.22:8040/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+      "message": "正在通过 “HTTP” 源“http://192.168.1.22:8040/nuget”运行“restore”操作。将来的版本中将删除非 HTTPS 访问权限。请考虑迁移到 “HTTPS” 源。"
     },
     {
       "code": "NU1803",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://192.168.1.19:8040/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+      "message": "正在通过 “HTTP” 源“http://192.168.1.19:8040/nuget”运行“restore”操作。将来的版本中将删除非 HTTPS 访问权限。请考虑迁移到 “HTTPS” 源。"
     },
     {
       "code": "NU1803",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://192.168.1.10:8088/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+      "message": "正在通过 “HTTP” 源“http://192.168.1.10:8088/nuget”运行“restore”操作。将来的版本中将删除非 HTTPS 访问权限。请考虑迁移到 “HTTPS” 源。"
     }
   ]
 }
