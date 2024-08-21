@@ -50,11 +50,12 @@
             Console.WriteLine("\r\n\r\n========================================");
 
             //BLPop阻塞式读取，当redis队列没有数据时，自动阻塞，直到新的数据写入
-            while (true) 
+            var _run = false;
+            while (_run) 
             {
                 try
                 {
-                    var s = RedisHelper.BLPop(100, "aaa");
+                    var s = RedisHelper.BLPop(5, "aaa");
                     if (!string.IsNullOrEmpty(s))
                     {
                         continue;
@@ -65,6 +66,18 @@
                     continue;
                 }
             }
+
+            //Redis实现分布式锁
+            //Redis为单进程单线程模式，多客户端连接Redis成串行模式，不存在竞争关系
+            //使用SetNx命令实现分布式锁，当且仅当key不存在，设置value。若key存在，SetNx不做任何动作
+            var is_call = RedisHelper.SetNx("is_order_call", "1");
+            if (is_call)
+            {
+                //doing something
+                RedisHelper.Del("is_order_call");
+            }
+
+            var totimestamp = Convert.ToInt64((DateTime.UtcNow - new DateTime(1970, 1, 1, 0, 0, 0, 0)).TotalSeconds).ToString();
         }
     }
 }
