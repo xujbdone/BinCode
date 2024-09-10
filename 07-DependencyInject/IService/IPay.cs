@@ -10,7 +10,7 @@ namespace _07_DependencyInject.IService
     {
         public void CreateOrder();
 
-        public void Pay();
+        public void Paying();
 
         public void Refund();
     }

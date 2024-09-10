@@ -19,7 +19,7 @@ namespace _07_DependencyInject.Service
             Console.WriteLine("Pay-申请退款");
         }
 
-        void IPay.Pay()
+        public void Paying()
         {
             Console.WriteLine("Pay-支付金额");
         }

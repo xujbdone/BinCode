@@ -1,7 +1,5 @@
 ﻿using _07_DependencyInject.IService;
 using _07_DependencyInject.Service;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 
 namespace _07_DependencyInject
 {
@@ -9,17 +7,16 @@ namespace _07_DependencyInject
     {
         static void Main(string[] args)
         {
-            var host = Host.CreateDefaultBuilder(args).ConfigureServices(services =>
-            {
-                services.AddScoped<IPay, Pay>();
-            }).Build();
-            host.Run();
-        }
+            IServiceCollection services= new MyServiceCollection();
+            services.AddSingleton<IPay, Pay>();
 
+            IServiceProvider provider = services.BuildProvider();
 
-        public void RunTest(IPay pay)
-        {
-            pay.Pay();
+            var pay = (IPay)provider.GetService(typeof(IPay));
+
+            pay.CreateOrder();
+            pay.Paying();
+            pay.Refund();
         }
     }
 }
