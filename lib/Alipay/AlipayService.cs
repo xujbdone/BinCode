@@ -1,13 +1,7 @@
-﻿using Payment;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿using Core.lib;
 namespace Alipay
 {
-    public class Pay : IPay
+    public class AlipayService : IPaySerivce
     {
         public void Paying()
         {

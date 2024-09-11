@@ -1,0 +1,15 @@
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\Alipay\bin\Debug\net6.0\Alipay.deps.json
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\Alipay\bin\Debug\net6.0\Alipay.dll
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\Alipay\bin\Debug\net6.0\Alipay.pdb
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\Alipay\bin\Debug\net6.0\IPay.dll
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\Alipay\bin\Debug\net6.0\IPay.pdb
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\Alipay\obj\Debug\net6.0\Alipay.csproj.AssemblyReference.cache
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\Alipay\obj\Debug\net6.0\Alipay.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\Alipay\obj\Debug\net6.0\Alipay.AssemblyInfoInputs.cache
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\Alipay\obj\Debug\net6.0\Alipay.AssemblyInfo.cs
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\Alipay\obj\Debug\net6.0\Alipay.csproj.CoreCompileInputs.cache
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\Alipay\obj\Debug\net6.0\Alipay.csproj.CopyComplete
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\Alipay\obj\Debug\net6.0\Alipay.dll
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\Alipay\obj\Debug\net6.0\refint\Alipay.dll
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\Alipay\obj\Debug\net6.0\Alipay.pdb
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\Alipay\obj\Debug\net6.0\ref\Alipay.dll

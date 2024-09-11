@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "LAU1YzZIg/9z3VvkVtj93ZZ53bRz9KljlphP9mVfajB99efjzAjELx/bXF90ATKTA/11xgWNOyAw9SC8nU6DZA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\西红柿炒鸡蛋\\source\\repos\\BinCode\\lib\\IPay\\IPay.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://192.168.1.22:8040/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    },
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://192.168.1.19:8040/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    },
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://192.168.1.10:8088/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}

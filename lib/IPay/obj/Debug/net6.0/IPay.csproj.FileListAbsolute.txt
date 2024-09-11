@@ -1,0 +1,12 @@
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\IPay\bin\Debug\net6.0\IPay.deps.json
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\IPay\bin\Debug\net6.0\IPay.dll
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\IPay\bin\Debug\net6.0\IPay.pdb
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\IPay\obj\Debug\net6.0\IPay.csproj.AssemblyReference.cache
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\IPay\obj\Debug\net6.0\IPay.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\IPay\obj\Debug\net6.0\IPay.AssemblyInfoInputs.cache
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\IPay\obj\Debug\net6.0\IPay.AssemblyInfo.cs
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\IPay\obj\Debug\net6.0\IPay.csproj.CoreCompileInputs.cache
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\IPay\obj\Debug\net6.0\IPay.dll
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\IPay\obj\Debug\net6.0\refint\IPay.dll
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\IPay\obj\Debug\net6.0\IPay.pdb
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\IPay\obj\Debug\net6.0\ref\IPay.dll

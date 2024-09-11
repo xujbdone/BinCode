@@ -19,9 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Alipay\Alipay.csproj" />
-    <ProjectReference Include="..\Pay\Pay.csproj" />
-    <ProjectReference Include="..\WxPay\WxPay.csproj" />
+    <ProjectReference Include="..\lib\IPay\IPay.csproj" />
   </ItemGroup>
 
 </Project>

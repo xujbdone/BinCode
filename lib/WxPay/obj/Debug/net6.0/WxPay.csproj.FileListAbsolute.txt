@@ -1,0 +1,15 @@
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\WxPay\bin\Debug\net6.0\WxPay.deps.json
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\WxPay\bin\Debug\net6.0\WxPay.dll
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\WxPay\bin\Debug\net6.0\WxPay.pdb
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\WxPay\bin\Debug\net6.0\IPay.dll
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\WxPay\bin\Debug\net6.0\IPay.pdb
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\WxPay\obj\Debug\net6.0\WxPay.csproj.AssemblyReference.cache
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\WxPay\obj\Debug\net6.0\WxPay.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\WxPay\obj\Debug\net6.0\WxPay.AssemblyInfoInputs.cache
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\WxPay\obj\Debug\net6.0\WxPay.AssemblyInfo.cs
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\WxPay\obj\Debug\net6.0\WxPay.csproj.CoreCompileInputs.cache
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\WxPay\obj\Debug\net6.0\WxPay.csproj.CopyComplete
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\WxPay\obj\Debug\net6.0\WxPay.dll
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\WxPay\obj\Debug\net6.0\refint\WxPay.dll
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\WxPay\obj\Debug\net6.0\WxPay.pdb
+C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\WxPay\obj\Debug\net6.0\ref\WxPay.dll

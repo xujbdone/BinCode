@@ -1,7 +1,6 @@
-﻿using _07_DependencyInject._03_Autofac.IService;
-using _07_DependencyInject._03_Autofac.Serivce;
-using Autofac;
+﻿using Autofac;
 using Autofac.Extensions.DependencyInjection;
+using Core.lib;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -18,7 +17,7 @@ namespace _07_DependencyInject._03_AutoFac
         {
             //1、通过类来注入
             //var builder = new ContainerBuilder();
-            //builder.RegisterType<DbContext>().As<IDbContext>();
+            //builder.RegisterType<IPaySerivce>().As<IDbContext>();
             //var container = builder.Build();
             //var serviceProvider = new AutofacServiceProvider(container);
             //var iDbcontext = serviceProvider.GetService<IDbContext>();
@@ -26,16 +25,19 @@ namespace _07_DependencyInject._03_AutoFac
             //Console.ReadKey();
 
             //2、通过程序集批量注入
-            var path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Module", "*.dll");
-            var assemblys = Assembly.LoadFile(path);
-
             var builder = new ContainerBuilder();
-            builder.RegisterType<WxPay.Pay>().As<Payment.IPay>();
+            var path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Module");
+            var dirList = Directory.GetFiles(path, "*.dll");
+            foreach (var dir in dirList)
+            {
+                var assembly = Assembly.LoadFrom(dir);
+                builder.RegisterAssemblyTypes(assembly).AsImplementedInterfaces().InstancePerDependency();
+            }
             var container = builder.Build();
             var serviceProvider = new AutofacServiceProvider(container);
-            var pay = serviceProvider.GetService<Payment.IPay>();
+            var pay = serviceProvider.GetService<IPaySerivce>();
             pay.Paying();
-            //Console.ReadKey();
+            Console.ReadKey();
         }
     } 
 }
