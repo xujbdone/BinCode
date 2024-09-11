@@ -24,12 +24,13 @@ namespace _07_DependencyInject
             throw new NotImplementedException();
         }
 
-        public object GetService(Type serviceType)
+        public T GetService<T>() where T : class 
         {
+            var serviceType = typeof(T);
             var matchItem = _services.FirstOrDefault(s => s.ServiceType == serviceType);
             if (matchItem == null)
             {
-                return null;
+                return default(T);
             }
             switch (matchItem.Lifetime)
             {
@@ -37,13 +38,13 @@ namespace _07_DependencyInject
                 case ServiceLifetime.Scoped:
                     if (_objects.ContainsKey(matchItem.ServiceType))
                     {
-                        return _objects[matchItem.ServiceType];
+                        return (T)_objects[matchItem.ServiceType];
                     }
                     var obj = Activator.CreateInstance(matchItem?.ImplementationType);
                     _objects.TryAdd(matchItem.ServiceType, obj);
-                    return obj;
+                    return (T)obj;
                 case ServiceLifetime.Transient:
-                    return Activator.CreateInstance(matchItem.ImplementationType);
+                    return (T)Activator.CreateInstance(matchItem.ImplementationType);
                 default:
                     return null;
             }

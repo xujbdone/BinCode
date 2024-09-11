@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace _07_DependencyInject
 {
+    /// <summary>
+    /// 定义容器集合
+    /// </summary>
     public interface IServiceCollection : IList<ServiceDescriptor>
     {
     }

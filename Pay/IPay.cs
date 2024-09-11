@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _07_DependencyInject
+namespace Payment
 {
-    public interface IServiceProvider : IDisposable
+    public interface IPay
     {
-        object GetService(Type serviceType);
+        void Paying();
+
+        void Refund();
     }
 }

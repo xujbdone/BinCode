@@ -9,7 +9,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Autofac" Version="8.1.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="10.0.0" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="03_Autofac\Module\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Alipay\Alipay.csproj" />
+    <ProjectReference Include="..\Pay\Pay.csproj" />
+    <ProjectReference Include="..\WxPay\WxPay.csproj" />
   </ItemGroup>
 
 </Project>

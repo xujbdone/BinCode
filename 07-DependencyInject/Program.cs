@@ -1,5 +1,5 @@
-﻿using _07_DependencyInject.IService;
-using _07_DependencyInject.Service;
+﻿using _07_DependencyInject._02_NetCore;
+using _07_DependencyInject._03_AutoFac;
 
 namespace _07_DependencyInject
 {
@@ -7,16 +7,14 @@ namespace _07_DependencyInject
     {
         static void Main(string[] args)
         {
-            IServiceCollection services= new MyServiceCollection();
-            services.AddSingleton<IPay, Pay>();
+            //1、实现简单IOC容器
+            //test01.Run();
 
-            IServiceProvider provider = services.BuildProvider();
+            //2、.NetCore自带注入
+            //RunTest02.Run();
 
-            var pay = (IPay)provider.GetService(typeof(IPay));
-
-            pay.CreateOrder();
-            pay.Paying();
-            pay.Refund();
+            //3、Autofac
+            AutoTest.Runing();
         }
     }
 }
