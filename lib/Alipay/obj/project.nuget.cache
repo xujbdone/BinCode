@@ -1,27 +1,27 @@
 {
   "version": 2,
-  "dgSpecHash": "foukNz2UzhfJcqlts2/+EaBkx1GGD4G/TrXHP2nP3pNEPbCg9FaizXvlyHt4/ct+Hc6SPLCRJ7KNedyXG33keA==",
+  "dgSpecHash": "+lUC0fYPjuo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\西红柿炒鸡蛋\\source\\repos\\BinCode\\lib\\Alipay\\Alipay.csproj",
+  "projectFilePath": "D:\\Code\\BinCode\\lib\\Alipay\\Alipay.csproj",
   "expectedPackageFiles": [],
   "logs": [
     {
       "code": "NU1803",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://192.168.1.22:8040/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+      "message": "正在通过 “HTTP” 源“http://192.168.1.22:8040/nuget”运行“restore”操作。将来的版本中将删除非 HTTPS 访问权限。请考虑迁移到 “HTTPS” 源。"
     },
     {
       "code": "NU1803",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://192.168.1.19:8040/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+      "message": "正在通过 “HTTP” 源“http://192.168.1.19:8040/nuget”运行“restore”操作。将来的版本中将删除非 HTTPS 访问权限。请考虑迁移到 “HTTPS” 源。"
     },
     {
       "code": "NU1803",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://192.168.1.10:8088/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+      "message": "正在通过 “HTTP” 源“http://192.168.1.10:8088/nuget”运行“restore”操作。将来的版本中将删除非 HTTPS 访问权限。请考虑迁移到 “HTTPS” 源。"
     }
   ]
 }

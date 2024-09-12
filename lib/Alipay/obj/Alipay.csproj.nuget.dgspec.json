@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\西红柿炒鸡蛋\\source\\repos\\BinCode\\lib\\Alipay\\Alipay.csproj": {}
+    "D:\\Code\\BinCode\\lib\\Alipay\\Alipay.csproj": {}
   },
   "projects": {
-    "C:\\Users\\西红柿炒鸡蛋\\source\\repos\\BinCode\\lib\\Alipay\\Alipay.csproj": {
+    "D:\\Code\\BinCode\\lib\\Alipay\\Alipay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\西红柿炒鸡蛋\\source\\repos\\BinCode\\lib\\Alipay\\Alipay.csproj",
+        "projectUniqueName": "D:\\Code\\BinCode\\lib\\Alipay\\Alipay.csproj",
         "projectName": "Alipay",
-        "projectPath": "C:\\Users\\西红柿炒鸡蛋\\source\\repos\\BinCode\\lib\\Alipay\\Alipay.csproj",
-        "packagesPath": "C:\\Users\\西红柿炒鸡蛋\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\西红柿炒鸡蛋\\source\\repos\\BinCode\\lib\\Alipay\\obj\\",
+        "projectPath": "D:\\Code\\BinCode\\lib\\Alipay\\Alipay.csproj",
+        "packagesPath": "C:\\Users\\FZ\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\BinCode\\lib\\Alipay\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\西红柿炒鸡蛋\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\FZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,6 +25,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "http://192.168.1.10:8088/nuget": {},
           "http://192.168.1.19:8040/nuget": {},
           "http://192.168.1.22:8040/nuget": {},
@@ -34,8 +35,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\西红柿炒鸡蛋\\source\\repos\\BinCode\\lib\\IPay\\IPay.csproj": {
-                "projectPath": "C:\\Users\\西红柿炒鸡蛋\\source\\repos\\BinCode\\lib\\IPay\\IPay.csproj"
+              "D:\\Code\\BinCode\\lib\\IPay\\IPay.csproj": {
+                "projectPath": "D:\\Code\\BinCode\\lib\\IPay\\IPay.csproj"
               }
             }
           }
@@ -44,6 +45,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -65,24 +71,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\西红柿炒鸡蛋\\source\\repos\\BinCode\\lib\\IPay\\IPay.csproj": {
+    "D:\\Code\\BinCode\\lib\\IPay\\IPay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\西红柿炒鸡蛋\\source\\repos\\BinCode\\lib\\IPay\\IPay.csproj",
+        "projectUniqueName": "D:\\Code\\BinCode\\lib\\IPay\\IPay.csproj",
         "projectName": "IPay",
-        "projectPath": "C:\\Users\\西红柿炒鸡蛋\\source\\repos\\BinCode\\lib\\IPay\\IPay.csproj",
-        "packagesPath": "C:\\Users\\西红柿炒鸡蛋\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\西红柿炒鸡蛋\\source\\repos\\BinCode\\lib\\IPay\\obj\\",
+        "projectPath": "D:\\Code\\BinCode\\lib\\IPay\\IPay.csproj",
+        "packagesPath": "C:\\Users\\FZ\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\BinCode\\lib\\IPay\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\西红柿炒鸡蛋\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\FZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -90,6 +96,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "http://192.168.1.10:8088/nuget": {},
           "http://192.168.1.19:8040/nuget": {},
           "http://192.168.1.22:8040/nuget": {},
@@ -105,6 +112,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -126,7 +138,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

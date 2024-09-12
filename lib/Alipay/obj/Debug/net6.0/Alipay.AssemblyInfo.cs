@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Alipay")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff2e906e7d83bea43a5dfc2fd371687eb37a1f05")]
 [assembly: System.Reflection.AssemblyProductAttribute("Alipay")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Alipay")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

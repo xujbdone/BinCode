@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WxPay
-build_property.ProjectDir = C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\WxPay\
+build_property.ProjectDir = D:\Code\BinCode\lib\WxPay\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

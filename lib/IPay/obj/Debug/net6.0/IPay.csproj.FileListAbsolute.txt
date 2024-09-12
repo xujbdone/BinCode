@@ -10,3 +10,15 @@ C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\IPay\obj\Debug\net6.0\IPay.
 C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\IPay\obj\Debug\net6.0\refint\IPay.dll
 C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\IPay\obj\Debug\net6.0\IPay.pdb
 C:\Users\西红柿炒鸡蛋\source\repos\BinCode\lib\IPay\obj\Debug\net6.0\ref\IPay.dll
+D:\Code\BinCode\lib\IPay\bin\Debug\net6.0\IPay.deps.json
+D:\Code\BinCode\lib\IPay\bin\Debug\net6.0\IPay.dll
+D:\Code\BinCode\lib\IPay\bin\Debug\net6.0\IPay.pdb
+D:\Code\BinCode\lib\IPay\obj\Debug\net6.0\IPay.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\BinCode\lib\IPay\obj\Debug\net6.0\IPay.AssemblyInfoInputs.cache
+D:\Code\BinCode\lib\IPay\obj\Debug\net6.0\IPay.AssemblyInfo.cs
+D:\Code\BinCode\lib\IPay\obj\Debug\net6.0\IPay.csproj.CoreCompileInputs.cache
+D:\Code\BinCode\lib\IPay\obj\Debug\net6.0\IPay.sourcelink.json
+D:\Code\BinCode\lib\IPay\obj\Debug\net6.0\IPay.dll
+D:\Code\BinCode\lib\IPay\obj\Debug\net6.0\refint\IPay.dll
+D:\Code\BinCode\lib\IPay\obj\Debug\net6.0\IPay.pdb
+D:\Code\BinCode\lib\IPay\obj\Debug\net6.0\ref\IPay.dll
