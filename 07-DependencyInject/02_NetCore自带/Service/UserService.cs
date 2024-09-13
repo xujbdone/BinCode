@@ -1,6 +1,7 @@
 ﻿using _07_DependencyInject._02_NetCore.Entity;
 using _07_DependencyInject._02_NetCore.IRepository;
 using _07_DependencyInject._02_NetCore.IService;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -11,10 +11,10 @@ namespace _07_DependencyInject
             //test01.Run();
 
             //2、.NetCore自带注入
-            //RunTest02.Run();
+            RunTest02.Run();
 
             //3、Autofac
-            AutoTest.Runing();
+            //AutoTest.Runing();
         }
     }
 }

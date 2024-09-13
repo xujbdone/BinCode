@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WxPay")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff2e906e7d83bea43a5dfc2fd371687eb37a1f05")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4dbc35138ea0a0bb61c0af42d2d55c207b4a45f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("WxPay")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WxPay")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
