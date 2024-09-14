@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _08_Logging._02_简单模仿
+namespace Logging
 {
-    public interface ILoggerFactory
+    public interface ILogger
     {
-        ILogger CreateLogger(string categoryName);
     }
 }

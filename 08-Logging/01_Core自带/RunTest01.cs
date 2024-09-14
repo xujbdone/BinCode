@@ -20,6 +20,7 @@ namespace _08_Logging._01_Core
             {
                 //去除默认添加的日志提供程序
                 loggingBuilder.ClearProviders();
+
                 //设置日志记录的level
                 loggingBuilder.SetMinimumLevel(LogLevel.Debug);
                 //AddProvider 添加日志提供器

@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Logging;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _08_Logging._02_简单模仿
+namespace Logging.Factory
 {
     public class LoggerFactory : ILoggerFactory
     {
@@ -24,6 +25,11 @@ namespace _08_Logging._02_简单模仿
                 }
             }
             return logger;
+        }
+
+        public ILogger[] GetProviders()
+        {
+            throw new NotImplementedException();
         }
     }
 }
